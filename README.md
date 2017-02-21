@@ -1,13 +1,16 @@
 # AngularModuleRouting
 
 
-# This PROJECT
+# QUICK TEMAPLATE: for an App with Lazy loaded content
 
 clone this project if you want a quick scaffold with routing and with lazy loaded modules
 
 each section in the site will be lazy loaded 
 
 you can clone and work using the usual Angular 2 cli techniques...from there.
+
+it just takes too long to do all the bioler plate .. even after cli generation, 
+so use this template if you want a quick scaffold of a working SPA.
 
 
 # 1 . MAKING MODULES IN THIS PROJECT
@@ -52,6 +55,11 @@ example `<a [routerLink]="['whatever']" >Link to my module</a>`
 
 
 # Thats it.
+
+# FEATURES 
+
+will be adding firebase and and some other quick templates and will update this repo.
+feel free to clone and ask for merging etc.
 
 
 
