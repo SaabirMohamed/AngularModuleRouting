@@ -44,7 +44,11 @@ Now edit the module you just made's routing file like below
 
 note the case of your files
 
-# 4 . FINALLY put a `[routerLink]="['whatever']"` in you html element `<a [routerLink]="['whatever']" >Link to my module</a>`
+# 4 . FINALLY put a 
+
+`[routerLink]="['whatever']"` 
+
+example `<a [routerLink]="['whatever']" >Link to my module</a>`
 
 
 # Thats it.
