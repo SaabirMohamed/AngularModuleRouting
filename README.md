@@ -10,17 +10,46 @@ each section in the site will be lazy loaded
 you can clone and work using the usual Angular 2 cli techniques...from there.
 
 
-# MODULES 
+# 1 . MAKING MODULES IN THIS PROJECT
 
 TO MAKE A MODULE 
+
 `ng g m [folderforyourmodules]\[modulename] --routing`
 
-NOW JUST EDIT the modules routing file like so...
+# 2 . ADDING THE ROUTES
+
+Now edit the module you just made's routing file like below
 
 `import { [Whatever]Component } from './[whatever].component';`
+
+
 `const routes: Routes = [`
+
+
 `{path: '', component: [Whatever]Component}`
+
+
 `];`
+
+# 3 . ADDING THE ROUTE YOUR MAIN BOOT ROUTER [usually app/app.routing.ts]
+
+
+`const routes: Routes = [`
+
+
+`{ path: '', loadChildren: './modules/[whatever]/[whatever].module#[Whatever]Module' },`
+
+
+`];`
+
+note the case of your files
+
+# 4 . FINALLY put a `[routerLink]="['whatever']"` in you html element `<a [routerLink]="['whatever']" >Link to my module</a>`
+
+
+# Thats it.
+
+
 
 #INFO FROM THE DEFUALT CLI GENERATED README FILE BELOW
 
