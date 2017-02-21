@@ -1,5 +1,29 @@
 # AngularModuleRouting
 
+
+# This PROJECT
+
+clone this project if you want a quick scaffold with routing and with lazy loaded modules
+
+each section in the site will be lazy loaded 
+
+you can clone and work using the usual Angular 2 cli techniques...from there.
+
+
+# MODULES 
+
+TO MAKE A MODULE 
+`ng g m [folderforyourmodules]\[modulename] --routing`
+
+NOW JUST EDIT the modules routing file like so...
+
+`import { [Whatever]Component } from './[whatever].component';`
+`const routes: Routes = [`
+`{path: '', component: [Whatever]Component}`
+`];`
+
+#INFO FROM THE DEFUALT CLI GENERATED README FILE BELOW
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
 
 ## Development server
