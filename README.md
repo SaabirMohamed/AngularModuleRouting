@@ -34,7 +34,9 @@ Now add a route to the module you just made
 
 `];`
 
-# 3 . ADDING THE ROUTE: for you newly created module [usually in app/app.routing.ts]
+# 3 . ADDING THE ROUTE:
+
+for your newly created module [usually in app/app.routing.ts]
 
 
 `const routes: Routes = [`
