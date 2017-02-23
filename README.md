@@ -64,6 +64,8 @@ feel free to clone and ask for merging etc.
 
 ALT-H2 started `feature/implement-firebase` -- to be merging only to `develop` branch
 
+ALT-H2 Completed `feature/implement-firebase` -- to be merging only to `develop` branch 23/02/2017 : 12:20pm
+
 
 
 #INFO FROM THE DEFUALT CLI GENERATED README FILE BELOW
