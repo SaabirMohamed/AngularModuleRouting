@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LoginRoutingModule } from './login-routing.module';
 import { LoginComponent } from './login.component';
 import { AngularFireModule } from 'angularfire2';
-import { MembersComponent } from './components/members/members.component';
+// import { MembersComponent } from './components/members/members.component';
 
 // fb conf
 export const firebaseConfig = {
@@ -21,6 +21,6 @@ export const firebaseConfig = {
     LoginRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig)
   ],
-  declarations: [LoginComponent, MembersComponent]
+  declarations: [LoginComponent]
 })
 export class LoginModule { }
