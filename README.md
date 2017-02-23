@@ -21,7 +21,7 @@ TO MAKE A MODULE
 
 # 2 . ADDING THE ROUTES
 
-Now edit the module you just made's routing file like below
+Now add a route to the module you just made
 
 `import { [Whatever]Component } from './[whatever].component';`
 
@@ -34,7 +34,7 @@ Now edit the module you just made's routing file like below
 
 `];`
 
-# 3 . ADDING THE ROUTE YOUR MAIN BOOT ROUTER [usually app/app.routing.ts]
+# 3 . ADDING THE ROUTE: for you newly created module [usually in app/app.routing.ts]
 
 
 `const routes: Routes = [`
