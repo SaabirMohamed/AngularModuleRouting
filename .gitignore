@@ -4,6 +4,9 @@
 /dist
 /tmp
 
+#My Custom scripts
+gititupthere.bat
+
 # dependencies
 /node_modules
 
