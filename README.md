@@ -62,6 +62,9 @@ will be adding firebase and and some other quick templates and will update this 
 feel free to clone and ask for merging etc.
 
 
+ALT-H2 started `feature/implement-firebase` -- to be merging only to `develop` branch
+
+
 
 #INFO FROM THE DEFUALT CLI GENERATED README FILE BELOW
 
