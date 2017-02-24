@@ -63,10 +63,14 @@ example `<a [routerLink]="['whatever']" >Link to my module</a>`
 will be adding firebase and and some other quick templates and will update this repo.
 feel free to clone and ask for merging etc.
 
+# Updates 
 
-ALT-H2 started `feature/implement-firebase` -- to be merging only to `develop` branch
 
-ALT-H2 Completed `feature/implement-firebase` -- to be merging only to `develop` branch 23/02/2017 : 12:20pm
+## started `feature/implement-firebase` -- to be merging only to `develop` branch
+
+## Completed `feature/implement-firebase` -- to be merging only to `develop` branch 23/02/2017 : 12:20pm
+
+## Merged firebase, authguard service and added the members module to develop branch
 
 
 
