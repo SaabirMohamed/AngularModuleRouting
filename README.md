@@ -1,7 +1,7 @@
 # AngularModuleRouting
 
 
-# QUICK TEMAPLATE: for an App with Lazy loaded content
+# Quick template: for an App with Lazy loaded content
 
 clone this project if you want a quick scaffold with routing and with lazy loaded modules
 

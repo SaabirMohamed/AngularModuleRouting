@@ -1,0 +1,5 @@
+# to push the deletion to the remote repo run : 
+git push origin --delete [branch name] 
+
+# to just delete the feature repo run:
+git branch -d [name of branch]
